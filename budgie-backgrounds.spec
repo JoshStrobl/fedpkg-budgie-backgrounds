@@ -1,10 +1,10 @@
 Name:           budgie-backgrounds
 Version:        1.0
 Release:        1%{?dist}
-Summary: Default set of background images for the Budgie Desktop
+Summary:     Default set of background images for the Budgie Desktop
 
-License:  CC0-1.0
-URL: https://github.com/BuddiesOfBudgie/budgie-backgrounds
+License:         CC0-1.0
+URL:                https://github.com/BuddiesOfBudgie/budgie-backgrounds
 Source0:        %{url}/releases/download/v%{version}/%{name}-v%{version}.tar.xz
 Source1:        %{url}/releases/download/v%{version}/%{name}-v%{version}.tar.xz.asc
 Source2:        https://serebit.com/openpgp/git-at-serebit-dot-com.asc
@@ -12,9 +12,9 @@ Source2:        https://serebit.com/openpgp/git-at-serebit-dot-com.asc
 BuildArch: noarch
 BuildRequires: ImageMagick
 BuildRequires: gcc
-BuildRequires:  gnupg2
+BuildRequires: gnupg2
 BuildRequires: jhead
-BuildRequires:  meson
+BuildRequires: meson
 
 %description
 Default set of background images for the Budgie Desktop.
